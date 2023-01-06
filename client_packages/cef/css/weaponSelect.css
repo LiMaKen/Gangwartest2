@@ -1,0 +1,158 @@
+.foo img:last-child {
+    display: none;
+}
+
+.foo:hover img:first-child {
+    display: none;
+}
+
+.foo:hover img:last-child {
+    display: inline-block;
+}
+
+
+
+
+body {
+    background-color: transparent;
+    box-shadow: 8px 8px 80px black;
+}
+
+
+
+
+h1 {
+    margin-top: 50px;
+    margin-left: 37%;
+    font-size: 2.5rem;
+    width: 800px;
+}
+
+
+
+.team {
+    width: 1250px;
+    height: 680px;
+    border: solid 1px rgba(78, 78, 78, 0.2);
+    box-shadow: 8px 8px 80px rgb(59, 59, 59);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(244 245 240);
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+.contentBox {
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+
+   margin-bottom:60px;
+    margin-right :60px;
+    margin-left :60px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+
+.actor {
+    margin-top: 100px;
+    display:inline-table;
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    border-radius : 5px; 
+}
+.Logo{
+    margin-left: 35%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+
+#closeBTN {
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+    position: absolute;
+    margin-top: 40%;
+    right: 0%;
+    color: #f4f5f0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html {
+    user-select: none;
+}
+
+.area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.input-fields {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+    width: 48%;
+}
+
+    .input-fields .input {
+        margin: 10px 0;
+        background: transparent;
+        border: 0;
+        border-bottom: 2px solid rgba(83, 83, 83, 0.69);
+        color: rgba(12, 12, 12, 0.69);
+        ;
+        width: 100%;
+    }
+
+::-webkit-input-placeholder {
+    color: rgba(29, 29, 29, 0.69);
+    ;
+}
+
+::-moz-input-placeholder {
+    color: rgba(83, 83, 83, 0.69);
+    ;
+}
+
+::-ms-input-placeholder {
+    color: rgba(83, 83, 83, 0.69);
+    ;
+}
+
+.btn {
+    background: rgba(83, 83, 83, 0.69);
+    ;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}

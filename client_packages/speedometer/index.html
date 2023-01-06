@@ -1,0 +1,24 @@
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title></title>
+</head>
+<body>
+<div class="bar2">
+    <div class="kmh">187KM/H</div>
+</div>
+</body>
+<script>
+    function update(speed, gas) {
+        document.getElementsByClassName('kmh')[0].innerHTML = speed + "KM/H";
+    }
+
+    function hideSpeedo() {
+        document.getElementsByTagName('body')[0].style.display = "none";
+    }
+
+    function showSpeedo() {
+        document.getElementsByTagName('body')[0].style.display = "block";
+    }
+</script>

@@ -1,0 +1,1 @@
+require('39hz/drawtext.js');

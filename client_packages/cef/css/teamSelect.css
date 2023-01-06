@@ -1,0 +1,63 @@
+
+.foo img:last-child {
+    display: none;
+    
+}
+.foo:hover img:first-child {
+    display: none;
+  
+}
+.foo:hover img:last-child {
+    display: inline-block ;
+    
+}
+body{
+    box-shadow: 8px 8px 80px black;
+}
+html{
+    user-select: none;
+}
+h1{
+	margin-left: 37%;
+}
+.area{
+  
+}
+.team {
+    width: 100%;
+    height: 100%;
+    border: solid 5px rgba(78, 78, 78, 0.589);
+    box-shadow: 8px 8px 80px rgb(59, 59, 59);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contentBox{
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.contentBox h1 {
+    padding: 2rem;
+}
+li{
+  
+   list-style-type :none;
+   display : inline-block;
+}
+ul{
+    display: table; 
+    margin: 0 auto;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.actor{
+    margin-top: 300px;
+    display :flex;
+    justify-content:space-evenly;
+    align-items :center;
+}

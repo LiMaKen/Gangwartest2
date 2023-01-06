@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>redage.net - Hud</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/hud.css">
+    <link rel="stylesheet" href="fonts/notify.css">
+    <link rel="stylesheet" href="css/noty.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <style>
+        #effect {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        #safezone {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            /*background: rgba(197, 0, 0, 0.5);*/
+        }
+
+        .inpocket {
+            background-image: url('res/inpocket.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100%;
+            position: absolute;
+        }
+
+        .info {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 10pt;
+            font-weight: 600;
+            color: white;
+            text-shadow: 1px 1px 5px black,1px 1px 5px black;
+        }
+    </style>
+    <title>HUD</title>
+</head>
+<body>
+    <div id="safezone">
+        <div class="inGameHud" v-if="show">
+            <div class="adaptivhud">
+                <div class="position">
+            
+
+        <div class="help">
+            <table style="font-size:15px;font-weight: 900;color:#fff;">
+			<tr><td><p class="help-buttons">Bấm F2</p></td><td><p class="help-buttons2">Để Thay đổi quần áo ( Demo )</p></td></tr>
+                <tr><td><p class="help-buttons">Bấm F3</p></td><td><p class="help-buttons2">Để Sử Dụng Bộ Sơ Cứu</p></td></tr>
+				<tr><td><p class="help-buttons">Bấm F6</p></td><td><p class="help-buttons2">Để Thay đổi chế độ bắn</p></td></tr>
+					<tr><td><p class="help-buttons">Bấm F7</p></td><td><p class="help-buttons2">Để Bật/Tắt con trỏ chuột</p></td></tr>
+                <tr><td><p class="help-buttons">Bấm F10</p></td><td><p class="help-buttons2">Bật/Tắt Danh sách người chơi</p></td></tr>
+				<tr><td><p class="help-buttons">Giữ X</p></td><td><p class="help-buttons2">Chỉ Tay</p></td></tr>
+                <tr><td><p class="help-buttons">/help</p></td><td><p class="help-buttons2">Để biết các lệnh player</p></td></tr>
+                
+            </table>
+        </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <div id="effect"></div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/colorInterpolator.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/hud.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/noty.min.js"></script>
+    <script src="js/notify.js"></script>
+    <script>
+        function hidehud(toggle) {
+            if (toggle) {
+                HUD.show = false;
+                logotype.show = false;
+            } else {
+                HUD.show = true;
+                logotype.show = true;
+            }
+        }
+        function hidehelp(toggle) {
+            if (toggle) {
+                $('.help').hide();
+            } else {
+                $('.help').show();
+            }
+        }
+    </script>
+    <script>
+        function updateSafeZoneSize(screenWidht, screenHeight, safeZoneSize) {
+            
+            var savezoneDiv = document.getElementById("safezone");
+            safeZoneSize = (((1.0 - safeZoneSize) * 0.5) * 100.0);
+
+            savezoneDiv.style.right = savezoneDiv.style.left = ((screenWidht / 100) * safeZoneSize) + "px";
+            savezoneDiv.style.top = savezoneDiv.style.bottom = ((screenHeight / 100) * safeZoneSize) + "px";
+            return true;
+        }
+    </script>
+</body>
+</html>

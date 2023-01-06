@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    user-select: none;
+}
+
+body {
+    display: none;
+}
+
+.bar2 {
+    background-color: rgba(29, 29, 29, 1);
+    position: absolute;
+    padding: .75rem 1rem;
+    color: #fff;
+    bottom: 2rem;
+    right: 2rem;
+    border: 3px solid rgb(148,19,19);
+}

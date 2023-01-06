@@ -1,0 +1,378 @@
+{
+    "gf":{
+        "Teamname": "Grove",
+        "color": 53,
+        "chatcolor": "#33cc33",
+      "Spawnpos": {
+        "x": -174.66574096679688,
+        "y": -1532.255615234375,
+        "z": 34.35389709472656
+      },
+        "Clothes":[
+            {
+                "id":1,
+                "drawable":51,
+                "texture":5
+            },    
+            {
+                "id":2,
+                "drawable":50,
+                "texture":0
+            },
+			{
+                "id":3,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":4,
+                "drawable":64,
+                "texture":9
+            },
+			{
+                "id":5,
+                "drawable":40,
+                "texture":-1
+            },
+            {
+                "id":6,
+                "drawable":46,
+                "texture":6
+            },
+			{
+                "id":7,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":8,
+                "drawable":0,
+                "texture":-1
+            },
+			{
+                "id":9,
+                "drawable":0,
+                "texture":-1
+            },
+			{
+                "id":10,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":11,
+                "drawable":143,
+                "texture":0
+            }
+        ],
+        "Props":[
+            {
+                "id": 0,
+                "drawable": 54,
+                "texture": 0
+            },
+            {
+                "id": 1,
+                "drawable": 8,
+                "texture": 1
+            },
+            {
+                "id": 2,
+                "drawable": 0,
+                "texture":-1
+            },
+            {
+                "id": 6,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id": 7,
+                "drawable":0,
+                "texture":-1
+            }
+        ]
+    },
+    "ballas":{
+        "Teamname": "Ballas",
+        "color": 145,
+        "chatcolor": "#990099",
+        "Spawnpos":{
+            "x": 86.12165069580078,
+            "y": -1971.2213134765625,
+            "z": 20.747468948364258
+        },
+        "Clothes":[
+            {
+                "id":1,
+                "drawable":51,
+                "texture":0
+            },    
+            {
+                "id":2,
+                "drawable":50,
+                "texture":0
+            },
+			{
+                "id":3,
+                "drawable":17,
+                "texture":0
+            },
+            {
+                "id":4,
+                "drawable":5,
+                "texture":9
+                },
+				{
+                "id":5,
+                "drawable":40,
+                "texture":-1
+            },
+            {
+                "id":6,
+                "drawable":6,
+                "texture":1
+                },
+				{
+                "id":7,
+                "drawable":0,
+                "texture":-1
+                },
+            {
+                "id":8,
+                "drawable":0,
+                "texture":-1
+                },
+				{
+                "id":9,
+                "drawable":0,
+                "texture":2
+                },
+				{
+                "id":10,
+                "drawable":0,
+                "texture":-1
+                },
+            {
+                "id":11,
+                "drawable":50,
+                "texture":3
+            }
+        ],
+        "Props":[
+            {
+                "id": 0,
+                "drawable":11,
+                "texture": 0
+            },
+            {
+                "id": 1,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id": 2,
+                "drawable": 0,
+                "texture":-1
+            },
+            {
+                "id": 6,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id": 7,
+                "drawable":0,
+                "texture":-1
+            }
+        ]
+    },
+    "lsv":{
+        "Teamname": "Vagos",
+        "color": 88,
+        "chatcolor": "#ffff00",
+        "Spawnpos":{
+            "x": 361.4847106933594,
+  "y": -2056.803955078125,
+  "z": 21.712871551513672
+        },
+        "Clothes":[
+            {
+                "id":1,
+                "drawable":129,
+                "texture":12
+            },    
+            {
+                "id":2,
+                "drawable":0,
+                "texture":0
+            },
+            {
+                "id":3,
+                "drawable":1,
+                "texture":0
+            },
+            {
+                "id":4,
+                "drawable":5,
+                "texture":8
+            },
+            {
+                "id":5,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":6,
+                "drawable":6,
+                "texture":0
+            },
+            {
+                "id":7,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":8,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":9,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":10,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":11,
+                "drawable":253,
+                "texture":1
+            }
+        ],
+        "Props":[
+            {
+                "id": 0,
+                "drawable": 0,
+                "texture": -1
+            },
+            {
+                "id": 1,
+                "drawable": 0,
+                "texture":-1
+            },
+            {
+                "id": 2,
+                "drawable": 0,
+                "texture":-1
+            },
+            {
+                "id": 6,
+                "drawable": 0,
+                "texture":-1
+            },
+            {
+                "id": 7,
+                "drawable": 0,
+                "texture":-1
+            }
+        ]
+    },
+    "lost":{
+        "Teamname": "Lost MC",
+        "color": 31,
+        "chatcolor": "#996633",
+        "Spawnpos":{
+            "x": 182.02171325683594,
+  "y": -1661.27587890625,
+  "z": 29.803224563598633
+        },
+        "Clothes":[
+            {
+                "id":1,
+                "drawable":108,
+                "texture":0
+            },    
+            {
+                "id":2,
+                "drawable":0,
+                "texture":-1
+            },
+			{
+                "id":3,
+                "drawable":1,
+                "texture":0
+            },
+            {
+                "id":4,
+                "drawable":97,
+                "texture":20
+                },
+				{
+                "id":5,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id":6,
+                "drawable":24,
+                "texture":0
+                },
+				{
+                "id":7,
+                "drawable":0,
+                "texture":-1
+                },
+            {
+                "id":8,
+                "drawable":0,
+                "texture":-1
+                },
+				{
+                "id":9,
+                "drawable":0,
+                "texture":-1
+                },
+				{
+                "id":10,
+                "drawable":0,
+                "texture":-1
+                },
+            {
+                "id":11,
+                "drawable":251,
+                "texture":20
+            }
+        ],
+        "Props":[
+            {
+                "id": 0,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id": 1,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id": 2,
+                "drawable": 0,
+                "texture":-1
+            },
+            {
+                "id": 6,
+                "drawable":0,
+                "texture":-1
+            },
+            {
+                "id": 7,
+                "drawable":0,
+                "texture":-1
+            }
+        ]
+    }
+}
